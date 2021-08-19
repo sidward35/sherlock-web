@@ -1,5 +1,9 @@
 import streamlit as st
+import subprocess
 
-st.text_input(label, value='', max_chars=None, key=None, type='default', help=None, autocomplete=None, on_change=None, args=None, kwargs=None)
-
-st.button(label, key=None, help=None, on_click=None, args=None, kwargs=None)
+st.title('Sherlock Username Search')
+username = st.text_input('Username', value='', help='Enter your username')
+if st.button('Submit'):
+    st.text('Searching for \''+username+'\'...')
+    s = subprocess.check_output(["python", "sherlock", username])
+    st.text(s.decode("utf-8"))
