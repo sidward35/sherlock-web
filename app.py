@@ -1,6 +1,7 @@
 import streamlit as st
 import subprocess
 
+st.set_page_config(page_title='SUS', page_icon = 'https://user-images.githubusercontent.com/27065646/53551960-ae4dff80-3b3a-11e9-9075-cef786c69364.png')
 st.title('Sherlock Username Search')
 username = st.text_input('Username', value='', help='Enter your username')
 if st.button('Submit'):
