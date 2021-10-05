@@ -72,7 +72,7 @@ Send2Trash==1.8.0
 six==1.16.0
 smmap==4.0.0
 soupsieve==2.2.1
-sqlparse==0.4.1
+sqlparse>=0.4.2
 stem==1.8.0
 streamlit==0.86.0
 tenacity==7.0.0
