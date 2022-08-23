@@ -74,7 +74,7 @@ smmap==4.0.0
 soupsieve==2.2.1
 sqlparse>=0.4.2
 stem==1.8.0
-streamlit==0.86.0
+streamlit==1.11.1
 tenacity==7.0.0
 terminado==0.11.0
 testpath==0.5.0
