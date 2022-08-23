@@ -39,7 +39,7 @@ Jinja2==3.0.1
 jmespath==0.10.0
 joblib==1.0.1
 jsonschema==3.2.0
-lxml==4.6.3
+lxml==4.9.1
 MarkupSafe==2.0.1
 matplotlib-inline==0.1.2
 mistune==2.0.3
