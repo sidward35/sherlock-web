@@ -26,7 +26,7 @@ defusedxml==0.7.1
 dlib==19.22.0
 docopt==0.6.2
 entrypoints==0.3
-future==0.18.2
+future==0.18.3
 gitdb==4.0.7
 GitPython==3.1.30
 helpers==0.2.0
