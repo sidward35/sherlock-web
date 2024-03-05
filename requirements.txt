@@ -81,7 +81,7 @@ testpath==0.5.0
 threadpoolctl==2.1.0
 toml==0.10.2
 toolz==0.11.1
-tornado==6.3.3
+tornado
 torrequest==0.1.0
 tqdm==4.62.0
 traitlets==5.0.5
